@@ -57,6 +57,8 @@ Note that, despite the title, this is **not** the ISO standard itself, which has
 
 ## [Norwegian](norwegian/README.md)
 
+## [Persian](persian/README.md)
+
 ## [Polish](polish/README.md)
 
 ## [Russian](russian/README.md)
