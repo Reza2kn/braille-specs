@@ -4,7 +4,7 @@
 
 - _title translated_: Guidelines for edition of mass-distribution braille publications
 - _by_: ["CHTENIE" Publishing House of All-Russia Society of the blind](http://chtenie.spb.ru)
-- _year_: 2015
+- _published_: 2015
 - _language_: Russian
 
 [Table of contents](toc.md)
@@ -13,7 +13,7 @@
 
 - _title translated_: Braille codes of the national languages of Russia
 - _by_: [The Russian State Library for the Blind](https://rgbs.ru)
-- _year_: 2017
+- _published_: 2017
 - _language_: Russian
 
 This reference book describes braille codes of the languages of the different nations that live in Russia. Most of these codes aren't supported by official documents, but blind representatives of these nations use these ones and even have braille books in their languages.
