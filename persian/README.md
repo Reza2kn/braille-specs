@@ -1,23 +1,29 @@
 # Persian (Iran)
 
-This page records provenance and page references for a historical Iranian
-institutional source. It does not reproduce the source or its Braille tables.
+This page records provenance and page references for a historical
+Iranian institutional source.
 
-## 2014 institutional manual
+This page does not claim that the 2014 manual is Iran's current
+standard or that no later edition exists.
 
-- _title_: مجموعه علائم بریل
-- _descriptive English title_: Collection of Braille Signs
-- _issued by_: Iran's National Organization for Special Education
-  (سازمان آموزش و پرورش استثنایی کشور)
-- _responsible unit_: Deputy for Educational Planning and Rehabilitation
-  (معاونت برنامه‌ریزی آموزشی و توان‌بخشی)
-- _published_: Iran, 1393 SH / 2014 CE
-- _language_: Persian, with sections covering other languages and notations
-- _extent_: 371 PDF pages: an unnumbered cover followed by printed pages 1–370
-- _status_: official-institutional historical source; current normative status
-  unverified
+## مجموعه علائم بریل
+
+- _title translated_: Collection of Braille Signs
+- _by_: Iran's National Organization for Special Education (سازمان آموزش و پرورش استثنایی کشور)
+- _applies to_: Iran
+- _published_: Deputy for Educational Planning and Rehabilitation (معاونت برنامه‌ریزی آموزشی و توان‌بخشی), Iran, 2014 (1393 SH)
+- _language_: Persian
+
+This is an official-institutional historical source. The current
+normative status of the document is unverified. No 2026 approval by an
+Iranian authority or validation by native blind Persian braille
+readers is claimed.
 
 ### Provenance
+
+The document, or its OCR text, is intentionally not included here
+because no redistribution license was found. This page documents
+provenance and does not grant permission to reproduce the source.
 
 The title appears in an [archived 2014 catalog of Iran's Ministry of
 Education](https://web.archive.org/web/20140828055145/http://www.medu.ir/portal/Home/ShowPage.aspx?Object=DirectoryView%26CategoryID=5e202802-bad0-431b-b0d7-5b9dc4967a3b%26LayoutID=ea1a5bb4-1ae7-4077-8d7c-da52e62d0808%26DirectoryID=b55838a1-24b3-4ab0-af00-b2a5fb2fbb00%26ID=474d0152-09bf-4108-9197-f80752900987)
@@ -37,8 +43,6 @@ archive from which the fingerprints below were calculated. The former official
 download binary was not recovered, so the mirror has not been proven
 byte-identical to it.
 
-### Artifact fingerprints
-
 These fingerprints identify the recovered mirror artifacts. Neither artifact
 is stored in this repository.
 
@@ -49,16 +53,18 @@ is stored in this repository.
 
 The PDF member has RAR CRC-32 `526DF072`.
 
-### Page map
+### (Translated) table of contents
 
-The cover is PDF page 1 and has no printed page number. For the remainder of
-this file, the PDF page number is the printed page number plus one.
+The PDF has 371 pages: an unnumbered cover followed by printed pages
+1–370. The cover is PDF page 1 and has no printed page number. For the
+remainder of this file, the PDF page number is the printed page number
+plus one.
 
 | Subject | Printed pages | PDF pages |
 | --- | ---: | ---: |
 | Introduction and methodology | 12–18 | 13–19 |
 | General material and history | 19–30 | 20–31 |
-| Persian literary Braille | 31–95 | 32–96 |
+| Persian literary braille | 31–95 | 32–96 |
 | Persian alphabet | 32–33 | 33–34 |
 | Persian punctuation and arithmetic signs | 34–40 | 35–41 |
 | Persian document and transcription conventions | 41–48 | 42–49 |
@@ -67,46 +73,23 @@ this file, the PDF page number is the printed page number plus one.
 | Persian phonetics | 90–95 | 91–96 |
 | Arabic and Quranic material | 96–100 | 97–101 |
 | English | 101–135 | 102–136 |
-| English Grade 1 | 102–103 | 103–104 |
-| English Grade 2 | 104–120 | 105–121 |
+| English grade 1 | 102–103 | 103–104 |
+| English grade 2 | 104–120 | 105–121 |
 | English phonetics and umlauts | 121–135 | 122–136 |
 | Mathematics and sciences | 136–206 | 137–207 |
-| Computer Braille section divider | 207 | 208 |
-| Computer Braille introduction | 208–209 | 209–210 |
-| American Computer Braille | 210–213 | 211–214 |
-| British Computer Braille | 214–217 | 215–218 |
+| Computer braille section divider | 207 | 208 |
+| Computer braille introduction | 208–209 | 209–210 |
+| American computer braille | 210–213 | 211–214 |
+| British computer braille | 214–217 | 215–218 |
 | Music | 218–290 | 219–291 |
 | Iranian music | 277–284 | 278–285 |
 | Appendices | 291–363 | 292–364 |
 | Sources | 364–370 | 365–371 |
 
-The computer section describes American and British ASCII-era Computer
-Braille. It is not an explicit Persian eight-dot Unicode code. The manual also
+### Notes
+
+The computer section describes American and British ASCII-era computer
+braille. It is not an explicit Persian eight-dot Unicode code. The manual also
 predates an explicit model for Unicode normalization, ZWNJ, bidirectional text,
 cursor routing, and translation round trips. These behaviors require separate,
 modern specification and validation.
-
-The PDF uses embedded Braille fonts without usable Unicode mappings, and its
-Persian text extraction is affected by bidirectional ordering. Any future
-machine-readable transcription should therefore be independently transcribed
-twice and checked against rendered pages.
-
-## Nonclaims and reuse status
-
-- This page does not claim that the 2014 manual is Iran's current standard or
-  that no later edition exists.
-- “Persian Braille 2026” is a project label, not a national standard or an
-  endorsement by the issuing organization.
-- No 2026 approval by an Iranian authority or validation by native blind
-  Persian Braille readers is claimed.
-- The mirror's relationship to the former official binary is supported by
-  historical links but not by matching cryptographic fingerprints.
-- No redistribution license was found. The PDF, RAR, page images, embedded
-  fonts, OCR text, and manual content are intentionally not included here.
-- The links, hashes, metadata, and page map document provenance; they do not
-  grant permission to reproduce the source.
-- This page is not a transcription of the manual and does not define a Persian
-  literary or computer-Braille translation table.
-
-The corresponding implementation audit and open policy questions are tracked
-in [liblouis/liblouis#2053](https://github.com/liblouis/liblouis/issues/2053).
