@@ -14,16 +14,15 @@ standard or that no later edition exists.
 - _published_: Deputy for Educational Planning and Rehabilitation (معاونت برنامه‌ریزی آموزشی و توان‌بخشی), Iran, 2014 (1393 SH)
 - _language_: Persian
 
-This is an official-institutional historical source. The current
-normative status of the document is unverified. No 2026 approval by an
-Iranian authority or validation by native blind Persian braille
-readers is claimed.
+This is an official-institutional historical source. Its current
+normative status has not been verified, and no validation by
+proficient Persian braille readers is claimed.
 
 ### Provenance
 
-The document, or its OCR text, is intentionally not included here
-because no redistribution license was found. This page documents
-provenance and does not grant permission to reproduce the source.
+The document, or its OCR text, is intentionally not included here because
+no redistribution license was found. This page documents provenance
+and does not grant permission to reproduce the source.
 
 The title appears in an [archived 2014 catalog of Iran's Ministry of
 Education](https://web.archive.org/web/20140828055145/http://www.medu.ir/portal/Home/ShowPage.aspx?Object=DirectoryView%26CategoryID=5e202802-bad0-431b-b0d7-5b9dc4967a3b%26LayoutID=ea1a5bb4-1ae7-4077-8d7c-da52e62d0808%26DirectoryID=b55838a1-24b3-4ab0-af00-b2a5fb2fbb00%26ID=474d0152-09bf-4108-9197-f80752900987)
@@ -37,14 +36,14 @@ Two contemporaneous pages provide additional provenance:
 - an [educator's reference page](https://blindsteacher.blogfa.com/post/34)
   linking both the Ministry listing and a public mirror.
 
-A [surviving mirror landing
-page](https://s4.picofile.com/file/8171401192/alaem_brill.rar.html) provides the
-archive from which the fingerprints below were calculated. The former official
-download binary was not recovered, so the mirror has not been proven
-byte-identical to it.
+The Ministry’s original download could not be recovered. The surviving
+copy comes from a [third-party
+mirror](https://s4.picofile.com/file/8171401192/alaem_brill.rar.html),
+so it cannot be verified as byte-for-byte identical to the former
+Ministry download.
 
-These fingerprints identify the recovered mirror artifacts. Neither artifact
-is stored in this repository.
+The fingerprints below identify the recovered mirror
+artifacts. Neither artifact is stored in this repository.
 
 | Artifact | Size | SHA-256 |
 | --- | ---: | --- |
@@ -52,6 +51,12 @@ is stored in this repository.
 | `alaem brill.pdf` | 9,697,432 bytes | `7974b08c12ece7242b2a435e71c5c8cacc2f296bad8728544a310cb33c9ada63` |
 
 The PDF member has RAR CRC-32 `526DF072`.
+
+Text and braille symbols extracted automatically from the PDF may be
+unreliable, as the PDF uses embedded braille fonts without usable
+Unicode mappings, and its Persian text extraction is affected by
+bidirectional ordering. The rendered pages should be treated as the
+source.
 
 ### (Translated) table of contents
 
